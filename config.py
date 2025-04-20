@@ -1,1 +1,0 @@
-DEEPSEEK_API_KEY = 'sk-d1672acd035f46dc808392e1efda3fe9'
