@@ -1,0 +1,438 @@
+2025-04-30 14:22:30,724 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:22:30,724 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:22:30,937 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:22:30,937 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:23:13,980 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:23:13,980 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:23:14,236 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:23:14,236 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:23:19,865 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:23:19,865 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:23:20,042 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:23:20,042 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:23:43,477 - aiogram.event - INFO - Update id=820868569 is handled. Duration 219 ms by bot id=7489027274
+2025-04-30 14:23:43,477 - aiogram.event - INFO - Update id=820868569 is handled. Duration 219 ms by bot id=7489027274
+2025-04-30 14:23:49,742 - aiogram.event - INFO - Update id=820868570 is handled. Duration 108 ms by bot id=7489027274
+2025-04-30 14:23:49,742 - aiogram.event - INFO - Update id=820868570 is handled. Duration 108 ms by bot id=7489027274
+2025-04-30 14:23:58,213 - aiogram.event - INFO - Update id=820868571 is handled. Duration 94 ms by bot id=7489027274
+2025-04-30 14:23:58,213 - aiogram.event - INFO - Update id=820868571 is handled. Duration 94 ms by bot id=7489027274
+2025-04-30 14:24:03,645 - utils.logger - INFO - Получен user_id: 958922650
+2025-04-30 14:24:03,645 - utils.logger - INFO - РџРѕР»СѓС‡РµРЅ user_id: 958922650
+2025-04-30 14:24:03,645 - utils.logger - INFO - Инициализированы данные для пользователя 958922650
+2025-04-30 14:24:03,645 - utils.logger - INFO - РРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅС‹ РґР°РЅРЅС‹Рµ РґР»СЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ 958922650
+2025-04-30 14:24:04,398 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:24:04,398 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:24:32,992 - aiogram.event - INFO - Update id=820868572 is handled. Duration 29342 ms by bot id=7489027274
+2025-04-30 14:24:32,992 - aiogram.event - INFO - Update id=820868572 is handled. Duration 29342 ms by bot id=7489027274
+2025-04-30 14:27:56,058 - utils.logger - WARNING - Пользователь 958922650 попытался отправить решение без активного кейса
+2025-04-30 14:27:56,058 - utils.logger - WARNING - РџРѕР»СЊР·РѕРІР°С‚РµР»СЊ 958922650 РїРѕРїС‹С‚Р°Р»СЃСЏ РѕС‚РїСЂР°РІРёС‚СЊ СЂРµС€РµРЅРёРµ Р±РµР· Р°РєС‚РёРІРЅРѕРіРѕ РєРµР№СЃР°
+2025-04-30 14:27:56,249 - aiogram.event - INFO - Update id=820868573 is handled. Duration 186 ms by bot id=7489027274
+2025-04-30 14:27:56,249 - aiogram.event - INFO - Update id=820868573 is handled. Duration 186 ms by bot id=7489027274
+2025-04-30 14:28:28,151 - utils.logger - INFO - Получен user_id: 958922650
+2025-04-30 14:28:28,151 - utils.logger - INFO - РџРѕР»СѓС‡РµРЅ user_id: 958922650
+2025-04-30 14:28:28,696 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:28:28,696 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:29:09,388 - aiogram.event - INFO - Update id=820868574 is handled. Duration 41250 ms by bot id=7489027274
+2025-04-30 14:29:09,388 - aiogram.event - INFO - Update id=820868574 is handled. Duration 41250 ms by bot id=7489027274
+2025-04-30 14:29:45,323 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:29:45,323 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:29:45,587 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:29:45,587 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:29:50,542 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:29:50,542 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:29:50,707 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:29:50,707 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:29:53,175 - utils.logger - INFO - Получен user_id: 958922650
+2025-04-30 14:29:53,175 - utils.logger - INFO - РџРѕР»СѓС‡РµРЅ user_id: 958922650
+2025-04-30 14:29:53,176 - utils.logger - INFO - Инициализированы данные для пользователя 958922650
+2025-04-30 14:29:53,176 - utils.logger - INFO - РРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅС‹ РґР°РЅРЅС‹Рµ РґР»СЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ 958922650
+2025-04-30 14:29:54,119 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:29:54,119 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:30:34,043 - aiogram.event - INFO - Update id=820868575 is handled. Duration 40875 ms by bot id=7489027274
+2025-04-30 14:30:34,043 - aiogram.event - INFO - Update id=820868575 is handled. Duration 40875 ms by bot id=7489027274
+2025-04-30 14:30:51,121 - utils.logger - INFO - Анализ решения успешно выполнен: Ваше решение было проанализировано. Плюсы: Хорошо структурировано. Минусы: Не учтены некоторые аспек...
+2025-04-30 14:30:51,121 - utils.logger - INFO - РђРЅР°Р»РёР· СЂРµС€РµРЅРёСЏ СѓСЃРїРµС€РЅРѕ РІС‹РїРѕР»РЅРµРЅ: Р’Р°С€Рµ СЂРµС€РµРЅРёРµ Р±С‹Р»Рѕ РїСЂРѕР°РЅР°Р»РёР·РёСЂРѕРІР°РЅРѕ. РџР»СЋСЃС‹: РҐРѕСЂРѕС€Рѕ СЃС‚СЂСѓРєС‚СѓСЂРёСЂРѕРІР°РЅРѕ. РњРёРЅСѓСЃС‹: РќРµ СѓС‡С‚РµРЅС‹ РЅРµРєРѕС‚РѕСЂС‹Рµ Р°СЃРїРµРє...
+2025-04-30 14:30:51,251 - aiogram.event - INFO - Update id=820868576 is handled. Duration 125 ms by bot id=7489027274
+2025-04-30 14:30:51,251 - aiogram.event - INFO - Update id=820868576 is handled. Duration 125 ms by bot id=7489027274
+2025-04-30 14:40:26,638 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:40:26,638 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:40:26,895 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:40:26,895 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:40:31,988 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:40:31,988 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:40:32,170 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:40:32,170 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:40:45,144 - utils.logger - INFO - Нажата кнопка: get_case
+2025-04-30 14:40:45,144 - utils.logger - INFO - РќР°Р¶Р°С‚Р° РєРЅРѕРїРєР°: get_case
+2025-04-30 14:40:45,355 - utils.logger - INFO - Получен user_id: 958922650
+2025-04-30 14:40:45,355 - utils.logger - INFO - РџРѕР»СѓС‡РµРЅ user_id: 958922650
+2025-04-30 14:40:45,356 - utils.logger - INFO - Инициализированы данные для пользователя 958922650
+2025-04-30 14:40:45,356 - utils.logger - INFO - РРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅС‹ РґР°РЅРЅС‹Рµ РґР»СЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ 958922650
+2025-04-30 14:40:46,010 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:40:46,010 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:41:42,087 - aiogram.event - INFO - Update id=820868577 is handled. Duration 56937 ms by bot id=7489027274
+2025-04-30 14:41:42,087 - aiogram.event - INFO - Update id=820868577 is handled. Duration 56937 ms by bot id=7489027274
+2025-04-30 14:41:57,933 - aiogram.event - INFO - Update id=820868578 is not handled. Duration 0 ms by bot id=7489027274
+2025-04-30 14:41:57,933 - aiogram.event - INFO - Update id=820868578 is not handled. Duration 0 ms by bot id=7489027274
+2025-04-30 14:41:57,933 - aiogram.event - ERROR - Cause exception while process update id=820868578 by bot id=7489027274
+AttributeError: 'str' object has no attribute 'from_user'
+Traceback (most recent call last):
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\test.py", line 236, in handle_solution
+    analysis = await analyze_solution(user_solution)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\test.py", line 250, in analyze_solution
+    user_id = message.from_user.id
+              ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'from_user'
+2025-04-30 14:41:57,933 - aiogram.event - ERROR - Cause exception while process update id=820868578 by bot id=7489027274
+AttributeError: 'str' object has no attribute 'from_user'
+Traceback (most recent call last):
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\test.py", line 236, in handle_solution
+    analysis = await analyze_solution(user_solution)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\test.py", line 250, in analyze_solution
+    user_id = message.from_user.id
+              ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'from_user'
+2025-04-30 14:43:02,269 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:43:02,269 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:43:02,524 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:43:02,524 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:43:07,233 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:43:07,233 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:43:07,393 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:43:07,393 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:43:17,756 - aiogram.event - INFO - Update id=820868579 is not handled. Duration 0 ms by bot id=7489027274
+2025-04-30 14:43:17,756 - aiogram.event - INFO - Update id=820868579 is not handled. Duration 0 ms by bot id=7489027274
+2025-04-30 14:43:25,412 - aiogram.event - INFO - Update id=820868580 is not handled. Duration 0 ms by bot id=7489027274
+2025-04-30 14:43:25,412 - aiogram.event - INFO - Update id=820868580 is not handled. Duration 0 ms by bot id=7489027274
+2025-04-30 14:43:38,132 - utils.logger - INFO - Получен user_id: 958922650
+2025-04-30 14:43:38,132 - utils.logger - INFO - РџРѕР»СѓС‡РµРЅ user_id: 958922650
+2025-04-30 14:43:38,132 - utils.logger - INFO - Инициализированы данные для пользователя 958922650
+2025-04-30 14:43:38,132 - utils.logger - INFO - РРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅС‹ РґР°РЅРЅС‹Рµ РґР»СЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ 958922650
+2025-04-30 14:43:38,760 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:43:38,760 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:44:19,215 - aiogram.event - INFO - Update id=820868581 is handled. Duration 41094 ms by bot id=7489027274
+2025-04-30 14:44:19,215 - aiogram.event - INFO - Update id=820868581 is handled. Duration 41094 ms by bot id=7489027274
+2025-04-30 14:44:25,572 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:44:25,572 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:44:28,423 - aiogram.event - INFO - Update id=820868582 is not handled. Duration 3233 ms by bot id=7489027274
+2025-04-30 14:44:28,423 - aiogram.event - INFO - Update id=820868582 is not handled. Duration 3233 ms by bot id=7489027274
+2025-04-30 14:44:28,423 - aiogram.event - ERROR - Cause exception while process update id=820868582 by bot id=7489027274
+TelegramBadRequest: Telegram server says - Bad Request: message can't be edited
+Traceback (most recent call last):
+  File "D:\Programms\PetProjects\BTrainer\test.py", line 277, in analyze_solution
+    await bot.edit_message_text(
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\bot.py", line 1509, in edit_message_text
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message can't be edited
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\test.py", line 235, in handle_solution
+    analysis = await analyze_solution(message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\test.py", line 320, in analyze_solution
+    await bot.edit_message_text(
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\bot.py", line 1509, in edit_message_text
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message can't be edited
+2025-04-30 14:44:28,423 - aiogram.event - ERROR - Cause exception while process update id=820868582 by bot id=7489027274
+TelegramBadRequest: Telegram server says - Bad Request: message can't be edited
+Traceback (most recent call last):
+  File "D:\Programms\PetProjects\BTrainer\test.py", line 277, in analyze_solution
+    await bot.edit_message_text(
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\bot.py", line 1509, in edit_message_text
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message can't be edited
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\test.py", line 235, in handle_solution
+    analysis = await analyze_solution(message)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\test.py", line 320, in analyze_solution
+    await bot.edit_message_text(
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\bot.py", line 1509, in edit_message_text
+    return await self(call, request_timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\bot.py", line 478, in __call__
+    return await self.session(self, method, timeout=request_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\base.py", line 254, in __call__
+    return cast(TelegramType, await middleware(bot, method))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\aiohttp.py", line 185, in make_request
+    response = self.check_response(
+               ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Programms\PetProjects\BTrainer\BTrainer\Lib\site-packages\aiogram\client\session\base.py", line 120, in check_response
+    raise TelegramBadRequest(method=method, message=description)
+aiogram.exceptions.TelegramBadRequest: Telegram server says - Bad Request: message can't be edited
+2025-04-30 14:53:54,348 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:53:54,348 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:53:54,614 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:53:54,614 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:53:59,732 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:53:59,732 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 14:53:59,897 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:53:59,897 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:54:05,012 - utils.logger - INFO - Получен user_id: 958922650
+2025-04-30 14:54:05,012 - utils.logger - INFO - РџРѕР»СѓС‡РµРЅ user_id: 958922650
+2025-04-30 14:54:05,012 - utils.logger - INFO - Инициализированы данные для пользователя 958922650
+2025-04-30 14:54:05,012 - utils.logger - INFO - РРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅС‹ РґР°РЅРЅС‹Рµ РґР»СЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ 958922650
+2025-04-30 14:54:06,043 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:54:06,043 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:54:51,165 - aiogram.event - INFO - Update id=820868583 is handled. Duration 46156 ms by bot id=7489027274
+2025-04-30 14:54:51,165 - aiogram.event - INFO - Update id=820868583 is handled. Duration 46156 ms by bot id=7489027274
+2025-04-30 14:55:05,066 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:55:05,066 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 14:57:02,335 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:57:02,335 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 14:57:02,578 - aiogram.event - INFO - Update id=820868584 is not handled. Duration 118047 ms by bot id=7489027274
+2025-04-30 14:57:02,578 - aiogram.event - INFO - Update id=820868584 is not handled. Duration 118047 ms by bot id=7489027274
+2025-04-30 14:57:02,578 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 14:57:02,578 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 15:03:31,203 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 15:03:31,203 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 15:03:31,410 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 15:03:31,410 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 15:03:46,611 - utils.logger - INFO - Получен user_id: 958922650
+2025-04-30 15:03:46,611 - utils.logger - INFO - РџРѕР»СѓС‡РµРЅ user_id: 958922650
+2025-04-30 15:03:46,611 - utils.logger - INFO - Инициализированы данные для пользователя 958922650
+2025-04-30 15:03:46,611 - utils.logger - INFO - РРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅС‹ РґР°РЅРЅС‹Рµ РґР»СЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ 958922650
+2025-04-30 15:03:47,389 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 15:03:47,389 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 15:04:15,787 - aiogram.event - INFO - Update id=820868585 is handled. Duration 29172 ms by bot id=7489027274
+2025-04-30 15:04:15,787 - aiogram.event - INFO - Update id=820868585 is handled. Duration 29172 ms by bot id=7489027274
+2025-04-30 15:04:22,678 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 15:04:22,678 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 15:07:12,597 - utils.logger - INFO - Анализ решения успешно выполнен!
+2025-04-30 15:07:12,597 - utils.logger - INFO - РђРЅР°Р»РёР· СЂРµС€РµРЅРёСЏ СѓСЃРїРµС€РЅРѕ РІС‹РїРѕР»РЅРµРЅ!
+2025-04-30 15:07:12,597 - aiogram.event - INFO - Update id=820868586 is handled. Duration 170500 ms by bot id=7489027274
+2025-04-30 15:07:12,597 - aiogram.event - INFO - Update id=820868586 is handled. Duration 170500 ms by bot id=7489027274
+2025-04-30 15:07:49,558 - aiogram.event - INFO - Update id=820868587 is handled. Duration 109 ms by bot id=7489027274
+2025-04-30 15:07:49,558 - aiogram.event - INFO - Update id=820868587 is handled. Duration 109 ms by bot id=7489027274
+2025-04-30 15:12:35,626 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 15:12:35,626 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 15:12:35,887 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 15:12:35,887 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 15:12:49,719 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 15:12:49,719 - aiogram.dispatcher - INFO - Start polling
+2025-04-30 15:12:49,890 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 15:12:49,890 - aiogram.dispatcher - INFO - Run polling for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 15:12:57,311 - aiogram.event - INFO - Update id=820868588 is not handled. Duration 0 ms by bot id=7489027274
+2025-04-30 15:12:57,311 - aiogram.event - INFO - Update id=820868588 is not handled. Duration 0 ms by bot id=7489027274
+2025-04-30 15:13:03,773 - aiogram.event - INFO - Update id=820868589 is handled. Duration 234 ms by bot id=7489027274
+2025-04-30 15:13:03,773 - aiogram.event - INFO - Update id=820868589 is handled. Duration 234 ms by bot id=7489027274
+2025-04-30 15:13:05,292 - utils.logger - INFO - Получен user_id: 958922650
+2025-04-30 15:13:05,292 - utils.logger - INFO - РџРѕР»СѓС‡РµРЅ user_id: 958922650
+2025-04-30 15:13:05,292 - utils.logger - INFO - Инициализированы данные для пользователя 958922650
+2025-04-30 15:13:05,292 - utils.logger - INFO - РРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°РЅС‹ РґР°РЅРЅС‹Рµ РґР»СЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ 958922650
+2025-04-30 15:13:05,897 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 15:13:05,897 - httpx - INFO - HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+2025-04-30 15:13:41,977 - aiogram.event - INFO - Update id=820868590 is handled. Duration 36688 ms by bot id=7489027274
+2025-04-30 15:13:41,977 - aiogram.event - INFO - Update id=820868590 is handled. Duration 36688 ms by bot id=7489027274
+2025-04-30 15:13:47,188 - aiogram.event - INFO - Update id=820868591 is handled. Duration 79 ms by bot id=7489027274
+2025-04-30 15:13:47,188 - aiogram.event - INFO - Update id=820868591 is handled. Duration 79 ms by bot id=7489027274
+2025-04-30 15:13:55,317 - aiogram.event - INFO - Update id=820868592 is handled. Duration 141 ms by bot id=7489027274
+2025-04-30 15:13:55,317 - aiogram.event - INFO - Update id=820868592 is handled. Duration 141 ms by bot id=7489027274
+2025-04-30 15:14:01,230 - aiogram.event - INFO - Update id=820868593 is handled. Duration 77 ms by bot id=7489027274
+2025-04-30 15:14:01,230 - aiogram.event - INFO - Update id=820868593 is handled. Duration 77 ms by bot id=7489027274
+2025-04-30 15:14:14,228 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 15:14:14,228 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-30 15:14:14,501 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'
+2025-04-30 15:14:14,501 - aiogram.dispatcher - INFO - Polling stopped for bot @lmi1_bot id=7489027274 - 'ForFunBot'

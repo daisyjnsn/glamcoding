@@ -4,6 +4,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder, ReplyKeyboardBuilder
 from aiogram.filters import Command
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
+from utils.logger import logger
 import logging
 import re
 import asyncio
@@ -19,6 +20,7 @@ load_dotenv()
 # Initialize bot and dispatcher
 TELEGRAM_BOT_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 DEEPSEEK_API_KEY = os.getenv('DEEPSEEK_API_KEY')
+PAYMENT_URL = os.getenv('PAYMENT_URL')
 
 api_key = DEEPSEEK_API_KEY
 llmDS = AsyncOpenAI(
@@ -31,8 +33,6 @@ bot = Bot(token=TELEGRAM_BOT_TOKEN)
 dp = Dispatcher()
 
 # Logging configuration
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
 
 # User progress storage (in-memory, replace with a database in production)
 user_progress = {}
@@ -52,6 +52,16 @@ taskPrompt = (
             '"Название кейса: Страх публичных выступлений у студента. '
             'Описание: Клиент — студент 3 курса, 21 год. Обратился с жалобой на сильный страх перед публичными выступлениями..."'
         )
+
+
+analyzePrompt = (
+    """
+    Ты — эксперт по КПТ. Твоя задача — анализировать решения студентов, которые работают с клиническими кейсами.
+    Оценивай их ответы на предмет соответствия принципам КПТ, корректности использования техник и терминологии.
+    Давай конструктивную обратную связь: указывай сильные стороны и предлагай улучшения.'
+    НЕ используй никакие стили форматирования текста, такие как **жирный шрифт**, *курсив*, HTML-теги или скобки (**, [], и т.д.). 
+    """
+)
 
 
 parameters = {
@@ -116,7 +126,6 @@ async def generateCase(message: types.Message):
 
     while True:
         try:
-            # Создаем потоковый запрос к модели
             stream = await llmDS.chat.completions.create(
                 model="deepseek-chat",
                 messages=[
@@ -124,7 +133,6 @@ async def generateCase(message: types.Message):
                     {"role": "user", "content": 
                                 f"Сложность кейса: {parameters['difficulty']}"
                                 f"Уровень пользователя: {parameters['level']}"
-                                #  f"Сгенерируй кейс для КПТ-психотерапевта"
                                 f"{unique_param}"
                     }
                 ],
@@ -138,60 +146,52 @@ async def generateCase(message: types.Message):
                     full_response += content
                     buffer += content
 
-                    # Обновляем сообщение, если буфер достиг 100 символов или прошло 1 секунда
                     current_time = asyncio.get_event_loop().time()
                     if len(buffer) >= 100 or (current_time - last_update_time) >= 1:
                         await bot.edit_message_text(
                             chat_id=message.chat.id,
                             message_id=message.message_id,
-                            text=full_response + "..."  # Добавляем многоточие для индикации генерации
+                            text=full_response + "..."
                         )
-                        buffer = ""  # Очищаем буфер
-                        last_update_time = current_time  # Обновляем время последнего обновления
+                        buffer = ""
+                        last_update_time = current_time
 
-                    await asyncio.sleep(0.2)  # Уменьшаем задержку для более быстрой генерации
+                    await asyncio.sleep(0.2)
 
-            # После завершения генерации убираем многоточие
             full_response += '\nВведите ваше решение'
             await bot.edit_message_text(
                 chat_id=message.chat.id,
                 message_id=message.message_id,
-                text=full_response
+                text=full_response,
             )
-            break
+            return full_response
 
         except Exception as e:
-            if "Too Many Requests" in str(e) or "429" in str(e):  # Проверяем ошибку лимита запросов
-                retry_after = 60  # Значение по умолчанию (в секундах)
+            if "Too Many Requests" in str(e) or "429" in str(e):
+                retry_after = 60
                 try:
-                    # Извлекаем время ожидания из ошибки (если оно указано)
                     retry_after = int(str(e).split("Retry-After: ")[1].split()[0])
                 except:
-                    pass  # Если время ожидания не указано, используем значение по умолчанию
+                    pass
 
-                # Отправляем сообщение о том, что бот временно недоступен
                 await bot.edit_message_text(
                     chat_id=message.chat.id,
                     message_id=message.message_id,
                     text=f"Превышен лимит запросов. Пожалуйста, подождите {retry_after} секунд..."
                 )
 
-                # Ждем указанное время
                 await asyncio.sleep(retry_after)
 
-                # После ожидания повторяем запрос
                 continue
 
             else:
-                # В случае другой ошибки отправляем сообщение об ошибке
                 await bot.edit_message_text(
                     chat_id=message.chat.id,
                     message_id=message.message_id,
                     text=f"Произошла ошибка: {str(e)}"
                 )
-                break
 
-
+                return full_response
 
 
 
@@ -205,14 +205,19 @@ async def send_case_common(message: types.Message, state: FSMContext):
 
     
     baseMessage = await message.answer('Генерирую ответ...')
-    await generateCase(baseMessage)
+    case = await generateCase(baseMessage)
+    user_progress[user_id]["last_case"] = case
     await state.set_state(BotStates.waiting_for_solution)
+
 
 # Handler for user solutions
 @dp.message(BotStates.waiting_for_solution)
 async def handle_solution(message: types.Message, state: FSMContext):
+    if len(message.text.split()) < 10:
+        await message.answer('Ваше решение слишком короткое')
+        return
+    
     user_id = message.chat.id
-    user_solution = message.text
     last_case = user_progress.get(user_id, {}).get("last_case")
     
     if not last_case:
@@ -224,19 +229,91 @@ async def handle_solution(message: types.Message, state: FSMContext):
         await state.clear()
         return
     
-    analysis = analyze_solution(last_case, user_solution)
+    sysMessage = await message.answer('Анализ вашего решения:\n')
+
+    await analyze_solution(message, sysMessage)
     user_progress[user_id]["cases_solved"] += 1
-    await message.answer(
-        f"Анализ вашего решения:\n{analysis}",
-        reply_markup=get_inline_keyboard()
-    )
     await state.clear()
+    logger.info(f"Анализ решения успешно выполнен!")
 
 # Function to analyze solution (simulated)
-def analyze_solution(case, solution):
-    analysis = "Ваше решение было проанализировано. Плюсы: Хорошо структурировано. Минусы: Не учтены некоторые аспекты клиента."
-    logger.info(f"Анализ решения успешно выполнен: {analysis[:100]}...")
-    return analysis
+async def analyze_solution(userMessage: types.Message, sysMessage: types.Message):
+    full_response = sysMessage.text + '\n'
+    buffer = ""
+    last_update_time = asyncio.get_event_loop().time()
+    unique_param = f"cache_buster={time.time()}_{random.randint(1000, 9999)}"
+    user_id = userMessage.from_user.id
+    logger.info(userMessage.text)
+
+    while True:
+        try:
+            # Создаем потоковый запрос к модели
+            stream = await llmDS.chat.completions.create(
+                    model="deepseek-chat",
+                    messages=[
+                        {"role": "system", "content": analyzePrompt},
+                        {"role": "user", "content":
+                                            f'Кейс: {user_progress[user_id]['last_case']}'
+                                            f'Решение: {userMessage.text}'
+                                            f'{unique_param}'   
+                        }
+                    ],
+                    temperature=1,
+                    stream=True
+                )
+
+            async for chunk in stream:
+                if chunk.choices and chunk.choices[0].delta.content:
+                    content = chunk.choices[0].delta.content
+                    full_response += content
+                    buffer += content
+
+                    current_time = asyncio.get_event_loop().time()
+                    if len(buffer) >= 100 or (current_time - last_update_time) >= 1.5:
+                        await bot.edit_message_text(
+                            chat_id=sysMessage.chat.id,
+                            message_id=sysMessage.message_id,
+                            text=full_response + "..."
+                        )
+                        buffer = ""
+                        last_update_time = current_time
+
+                    await asyncio.sleep(0.3)
+
+            # full_response += '\nВведите ваше решение'
+            await bot.edit_message_text(
+                chat_id=sysMessage.chat.id,
+                message_id=sysMessage.message_id,
+                text=full_response,
+                reply_markup=get_inline_keyboard()
+            )
+            return full_response
+
+        except Exception as e:
+            if "Too Many Requests" in str(e) or "429" in str(e):
+                retry_after = 60
+                try:
+                    retry_after = int(str(e).split("Retry-After: ")[1].split()[0])
+                except:
+                    pass
+
+                await bot.edit_message_text(
+                    chat_id=sysMessage.chat.id,
+                    message_id=sysMessage.message_id,
+                    text=f"Превышен лимит запросов. Пожалуйста, подождите {retry_after} секунд..."
+                )
+
+                await asyncio.sleep(retry_after)
+
+                continue
+
+            else:
+                await bot.edit_message_text(
+                    chat_id=sysMessage.chat.id,
+                    message_id=sysMessage.message_id,
+                    text=f"Произошла ошибка: {str(e)}"
+                )
+                return full_response
 
 # Tariffs command handler
 @dp.message(Command("tariffs"))
@@ -263,7 +340,7 @@ async def show_progress(message: types.Message):
 # Pay command handler
 @dp.message(Command("pay"))
 async def pay(message: types.Message):
-    payment_url = "https://your-payment-link.com"  # Replace with real payment link
+    payment_url = PAYMENT_URL  # Replace with real payment link
     await message.answer(
         f"Для получения расширенного доступа перейдите по ссылке: {payment_url}",
         reply_markup=get_reply_keyboard()
