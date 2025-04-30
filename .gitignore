@@ -1,0 +1,12 @@
+__pycache__/
+
+
+# Environments
+BTrainer/
+
+#  dotenv
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
